@@ -15,3 +15,7 @@ The first-action deliverable is an initial working browser prototype, not a subm
 | 9: Submission | Project narrative and demonstration script draft | SUBMISSION.md | Content checked against implemented scope | Final slides/video, confirmed rules, human review and submission |
 
 Next scientific milestone: extract a small, comparable run-level dataset with units, exact page/table references and uncertainty. Next engineering milestone: complete mobile/export/persistence QA, then enable numeric plots only after compatibility review.
+
+## v0.2 — interface refinement
+
+Replaced the glowing orbital card with a restrained technical illustration, consistent SVG navigation icons, navy/sage palette, editorial heading typography, compact statistics and a research reading-list table. Added staggered view entrances, animated chart reveals, dialog transitions, hover feedback, a persistent motion toggle and prefers-reduced-motion support. Dashboard count wording now distinguishes total catalog records from source-check status. Desktop and narrow-viewport search/navigation verified; see QA.md. All original research records retained.

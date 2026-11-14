@@ -34,3 +34,7 @@ Two automation selector calls needed correction (nested label matching and an un
 - Offline file:// browser smoke test. Build is self-contained by inspection and automated dependency check, but file:// was not exercised here.
 
 Do not describe these outstanding checks as passed.
+
+## v0.2 visual refresh
+
+Seven automated checks still pass after the refresh. Browser checks confirmed the motion toggle's pressed state, evidence dialog opening/closing, updated dashboard-to-explorer navigation and `cool` search (1 of 7). Desktop full-page screenshot visually reviewed. A 390px iframe viewport (375px content area after scrollbar) showed no body horizontal overflow; mobile navigation and search worked. This is a narrow-viewport check, not physical-device certification. Reduced-motion media-query support is implemented; OS-level preference emulation was not exercised. Scientific content is unchanged.
