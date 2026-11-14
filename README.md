@@ -19,7 +19,7 @@ Do not paste an API key into this application. No model is connected.
 
 ## Scientific boundaries
 
-The catalog contains seven unique source documents of mixed types, not seven peer-reviewed papers. Source checks establish provenance, not independent validation. The Saffire source is an NTRS presentation abstract. SAME-R is catalog metadata. Hypotheses, objectives, reported findings and project interpretations are labeled separately. A separate dataset now contains 13 selected published test rows from two primary documents. It preserves units, source references, suspect oxygen flags and reused fuel. Study-specific numerical plots are descriptive; no raw sensor ingestion or cross-study causal comparison is claimed. See [data audit](docs/DATA_AUDIT.md).
+The catalog contains seven unique source documents of mixed types, not seven peer-reviewed papers. Source checks establish provenance, not independent validation. The Saffire VI summary uses an NTRS presentation abstract; the Saffire I/II numerical dataset uses a separate full presentation. SAME-R is catalog metadata. Hypotheses, objectives, reported findings and project interpretations are labeled separately. A separate dataset now contains 13 selected published test rows from two primary documents. It preserves units, source references, suspect oxygen flags and reused fuel. Study-specific numerical plots are descriptive; no raw sensor ingestion or cross-study causal comparison is claimed. See [data audit](docs/DATA_AUDIT.md).
 
 SAME is **Smoke Aerosol Measurement Experiment**, not Spacecraft Atmosphere Monitor Experiment.
 

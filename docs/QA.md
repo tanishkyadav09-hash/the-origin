@@ -44,3 +44,6 @@ Seven automated checks still pass after the refresh. Browser checks confirmed th
 Added six experiment-focused test groups: source/units/review metadata, flagged oxygen exclusion, exact quenching coordinates, Saffire qualifiers, comparison guards, CSV row/blank preservation. These supplement the seven original checks. Source tables were rendered and visually checked before transcription. See DATA_AUDIT.md. Browser checks are recorded after execution below.
 
 Browser validation: study filtering returned four Saffire rows; width filtering returned two 1.2 cm BASS quenching points; cross-study comparisons displayed a no-pooling warning; reused-fuel detail preserved approximate values and provenance; CSV download completed. Final charts visually checked.
+
+## Final release cleanup
+Corrected catalog export version, summary-level numerical-data wording and source-specific detail text. CSV now includes pressure provenance and the unavailable uncertainty field. Refreshed project status to distinguish delivered features from scientific and submission milestones.
