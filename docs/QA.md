@@ -47,3 +47,6 @@ Browser validation: study filtering returned four Saffire rows; width filtering 
 
 ## Final release cleanup
 Corrected catalog export version, summary-level numerical-data wording and source-specific detail text. CSV now includes pressure provenance and the unavailable uncertainty field. Refreshed project status to distinguish delivered features from scientific and submission milestones.
+
+## Interface and animation refinement
+Improved typography, panel hierarchy, responsive layouts and keyboard-accessible tables. Added dashboard shortcuts, header search with slash-key access, collapsible mobile navigation, staggered view and chart entrances, illustration motion and dialog/menu transitions. Motion toggle and prefers-reduced-motion disable all animations. Browser checks: desktop search for cool returned one record, motion toggle updated its pressed state, mobile menu opened then closed on navigation, and 390px iframe data view had equal body/content widths (375px excluding scrollbar). All 13 automated tests passed.
