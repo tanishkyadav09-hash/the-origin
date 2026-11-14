@@ -38,3 +38,9 @@ Do not describe these outstanding checks as passed.
 ## v0.2 visual refresh
 
 Seven automated checks still pass after the refresh. Browser checks confirmed the motion toggle's pressed state, evidence dialog opening/closing, updated dashboard-to-explorer navigation and `cool` search (1 of 7). Desktop full-page screenshot visually reviewed. A 390px iframe viewport (375px content area after scrollbar) showed no body horizontal overflow; mobile navigation and search worked. This is a narrow-viewport check, not physical-device certification. Reduced-motion media-query support is implemented; OS-level preference emulation was not exercised. Scientific content is unchanged.
+
+## v0.3 numerical data
+
+Added six experiment-focused test groups: source/units/review metadata, flagged oxygen exclusion, exact quenching coordinates, Saffire qualifiers, comparison guards, CSV row/blank preservation. These supplement the seven original checks. Source tables were rendered and visually checked before transcription. See DATA_AUDIT.md. Browser checks are recorded after execution below.
+
+Browser validation: study filtering returned four Saffire rows; width filtering returned two 1.2 cm BASS quenching points; cross-study comparisons displayed a no-pooling warning; reused-fuel detail preserved approximate values and provenance; CSV download completed. Final charts visually checked.

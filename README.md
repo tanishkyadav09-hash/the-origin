@@ -8,18 +8,18 @@ Use the private preview link delivered in ChatGPT. Alternatively, open `dist/ind
 
 Do not paste an API key into this application. No model is connected.
 
-## Included in v0.1
+## Included in v0.3
 
-- Eight working navigation views: command center, explorer, comparison, evidence retrieval, priority ranking, mission applications, visualization lab and project information.
-- Seven curated investigation records across BASS, Saffire, FLEX, ACME and SAME.
-- Six records checked against readable NASA text; one checked against indexed NASA PSI catalog metadata.
+- Nine working navigation views (including Experimental Data): command center, explorer, comparison, evidence retrieval, priority ranking, mission applications, visualization lab and project information.
+- Nine curated investigation records across BASS, Saffire, FLEX, ACME and SAME.
+- Nine records checked against readable NASA text; one checked against indexed NASA PSI catalog metadata.
 - Search and combined filters, evidence detail dialogs, comparisons of up to three records, missing-data handling, source citations and catalog export.
 - A transparent editorial research-priority method; **not** a fire-risk prediction.
 - Unverified research drafts stored locally and kept out of scientific counts and answers.
 
 ## Scientific boundaries
 
-The catalog contains five unique source documents, not five peer-reviewed papers. Source checks establish provenance, not independent validation. The Saffire source is an NTRS presentation abstract. SAME-R is catalog metadata. Hypotheses, objectives, reported findings and project interpretations are labeled separately. The catalog contains no extracted numeric experimental conditions. Charts describe record coverage only. No cross-study measurement compatibility is claimed.
+The catalog contains seven unique source documents of mixed types, not seven peer-reviewed papers. Source checks establish provenance, not independent validation. The Saffire source is an NTRS presentation abstract. SAME-R is catalog metadata. Hypotheses, objectives, reported findings and project interpretations are labeled separately. A separate dataset now contains 13 selected published test rows from two primary documents. It preserves units, source references, suspect oxygen flags and reused fuel. Study-specific numerical plots are descriptive; no raw sensor ingestion or cross-study causal comparison is claimed. See [data audit](docs/DATA_AUDIT.md).
 
 SAME is **Smoke Aerosol Measurement Experiment**, not Spacecraft Atmosphere Monitor Experiment.
 

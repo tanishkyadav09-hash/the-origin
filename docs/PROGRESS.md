@@ -19,3 +19,7 @@ Next scientific milestone: extract a small, comparable run-level dataset with un
 ## v0.2 — interface refinement
 
 Replaced the glowing orbital card with a restrained technical illustration, consistent SVG navigation icons, navy/sage palette, editorial heading typography, compact statistics and a research reading-list table. Added staggered view entrances, animated chart reveals, dialog transitions, hover feedback, a persistent motion toggle and prefers-reduced-motion support. Dashboard count wording now distinguishes total catalog records from source-check status. Desktop and narrow-viewport search/navigation verified; see QA.md. All original research records retained.
+
+## v0.3 — primary-source data milestone
+
+Added 13 selected test rows from two NASA-hosted primary documents, two corresponding research-library summaries, per-row provenance, quality flags, separate study plots, width filtering, comparison checks and JSON/CSV export. Numeric dataset is separate from investigation summaries; aggregate summary slots remain null. Published tables are now available, but raw PSI ingestion, full experiment coverage, uncertainty estimates and independent scientific review remain outstanding. See DATA_AUDIT.md.

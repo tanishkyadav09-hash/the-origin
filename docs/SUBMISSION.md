@@ -14,7 +14,7 @@ Our contribution is a traceable workflow: every summary opens to a source refere
 
 ## What the demonstration proves
 
-The initial application runs without installation or API credentials. It organizes seven curated records from five programs and five source documents, filters them, compares their context, retrieves relevant source cards and explains an editorial priority score. It does not demonstrate a generative AI model, raw-data analysis, predictive simulation or validated safety recommendation.
+The initial application runs without installation or API credentials. It organizes nine curated records from five programs and seven source documents, plus 13 published test rows from two primary documents, filters them, compares their context, retrieves relevant source cards and explains an editorial priority score. It does not demonstrate a generative AI model, raw-data analysis, predictive simulation or validated safety recommendation.
 
 ## Technology and NASA data
 
@@ -28,7 +28,7 @@ Plain HTML, CSS and JavaScript; Node's built-in tooling for cloud-side bundling 
 - 0:55–1:15: Ask “What did Saffire study?” in AI Intelligence. Explain that this is local evidence retrieval, not a connected LLM. Try an unsupported question to show abstention.
 - 1:15–1:35: Open Fire Safety Insights, expand the score formula. Explain why reading priority is not fire risk.
 - 1:35–1:50: Select Lunar habitats. Emphasize that microgravity evidence is not a lunar-gravity measurement.
-- 1:50–2:00: Show the coverage map. “The next step is verified run-level extraction and expert review—not filling blanks with invented data.”
+- 1:50–2:00: Show the coverage map. “The Experimental Data view preserves units, source pages and suspect readings. Next comes broader extraction and expert review.”
 
 ## Concise presentation outline (draft, not final slides)
 

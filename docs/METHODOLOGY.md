@@ -39,3 +39,8 @@ Drafts require title, program, HTTPS URL and summary. Rendered user text is HTML
 ## Decisions
 
 Use plain JavaScript for a zero-install demonstration. Keep authored source modular but ship one file to avoid file:// module/CORS failures. Use CSS-based accessible count charts instead of a CDN chart dependency. A conceptual orbital illustration is labeled decorative; it is not a flame simulation. Maintain responsive breakpoints at 1100px and 720px, with horizontally scrollable tables and navigation.
+
+
+## v0.3 update
+
+The original summary-schema limitations above remain applicable to investigation-level entries. A separate run-level dataset now contains selected published conditions and results, with explicit units, flags, descriptive plots and comparison checks. See DATA_AUDIT.md for current numerical-data scope. No raw PSI ingestion or causal cross-study comparison has been enabled.
