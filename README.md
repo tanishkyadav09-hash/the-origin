@@ -1,5 +1,9 @@
 # THE ORIGIN
 
+<p align="center"><img src="assets/the-origin-logo.jpg" width="340" alt="THE ORIGIN: orbital emblem above Earth"></p>
+
+**[Launch the live app](https://tanishkyadav09-hash.github.io/the-origin/) · [Presentation PDF](docs/THE_ORIGIN_Presentation.pdf) · [Editable PowerPoint](docs/THE_ORIGIN_Presentation.pptx)**
+
 **Explore NASA microgravity combustion research through a traceable, interactive evidence workspace.**
 
 A working browser-based prototype developed for the **NASA Space Apps Challenge 2026 — Flame in Freefall**. THE ORIGIN helps students, researchers and reviewers find relevant investigations, inspect published experimental results and understand the limits of comparisons.
@@ -14,7 +18,7 @@ A working browser-based prototype developed for the **NASA Space Apps Challenge 
 
 The interface and bundled data work offline. An internet connection is needed to open external NASA sources. No account, API key, Node.js installation or paid service is required to run the downloaded app.
 
-A GitHub file preview displays source code rather than running the application. For web hosting, serve the contents of `dist/` with a static website host. A public deployment URL is not listed here until judge access has been verified.
+A GitHub file preview displays source code rather than running the application. For web hosting, serve the contents of `dist/` with a static website host. The public app is available at https://tanishkyadav09-hash.github.io/the-origin/.
 
 ### Suggested judge walkthrough
 
@@ -37,6 +41,10 @@ A published result can be useful without being directly comparable to another ex
 THE ORIGIN brings curated investigation summaries and selected published test rows into one browser workspace. Users can move from a high-level finding to its source, inspect experimental context and export structured data.
 
 The contribution is the organization, interface and provenance-aware review workflow. The scientific findings belong to the cited NASA research; we do not claim those findings as new discoveries.
+
+## Visual identity
+
+The supplied THE ORIGIN artwork appears in the app and presentation. The interface includes a decorative Earth and satellite scene, a subtle animated starfield, and a Motion toggle. Reduced-motion preferences disable animation. Space illustrations are decorative and do not represent measured NASA data.
 
 ## Features
 
@@ -135,7 +143,7 @@ The build produces:
 - `dist/experiments.json` — numerical data and provenance.
 - `dist/experiments.csv` — exported test rows.
 
-There are no frontend package dependencies to install.
+There are no frontend package dependencies to install. The build embeds `assets/the-origin-logo.jpg` into the HTML so the logo also works offline.
 
 ## Validation
 
@@ -147,7 +155,7 @@ These checks establish implemented software behavior and consistency with the ex
 
 ## Scope and limitations
 
-- **No connected LLM:** the evidence-search interface uses local keyword matching. Any “AI Intelligence” navigation label refers to this limited retrieval interface, not a generative model or validated superintelligence.
+- **No connected LLM:** the evidence-search interface uses local keyword matching. The Evidence Search view returns curated summaries rather than generated answers.
 - **No fire-risk prediction:** reading-priority scores are editorial heuristics, not hazard severity, safety certification or material approval.
 - **No causal claims:** plots are descriptive; differences between runs cannot be attributed to a single factor without appropriate experimental controls.
 - **Limited sample:** the numerical data contains 13 selected published rows, not complete NASA experiment archives.
@@ -171,7 +179,7 @@ This is a research and educational prototype, not an operational spacecraft safe
 
 The runtime application itself does not call ChatGPT or another generative model. Human contributors remain responsible for reviewing scientific statements and final submission materials.
 
-THE ORIGIN is an independent project. It does not imply NASA endorsement, certification or affiliation. Source material remains subject to its applicable terms.
+THE ORIGIN is an independent project. It does not imply NASA endorsement, certification or affiliation. Source material remains subject to its applicable terms. The project owner supplied the logo artwork; no third-party rights or license for that artwork are asserted here.
 
 ## Submission materials and rights
 
@@ -181,6 +189,6 @@ THE ORIGIN is an independent project. It does not imply NASA endorsement, certif
 - [Quality assurance notes](docs/QA.md)
 - [Development progress](docs/PROGRESS.md)
 
-A separate presentation and downloadable submission package have also been prepared; public links should be added only after they are accessible without sign-in.
+The updated seven-slide presentation is included above in PDF and editable PowerPoint formats. The downloadable project package includes the offline app, source, data audit, submission text and demo script.
 
 This README does not grant a software license. Project owners must confirm an appropriate license and any third-party obligations before public submission. All submitted links should be tested in a signed-out browser, and the team must confirm the official challenge and event submission requirements.
